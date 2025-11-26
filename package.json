@@ -1,7 +1,27 @@
 {
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "node.js": "^0.0.1-security"
-  }
+  },
+  "name": "pescatarocchibackend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriele-ag/pescatarocchibackend.git"
+  },
+  "author": "Gabriele Ardizzone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabriele-ag/pescatarocchibackend/issues"
+  },
+  "homepage": "https://github.com/gabriele-ag/pescatarocchibackend#readme",
+  "description": ""
 }
