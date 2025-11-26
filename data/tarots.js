@@ -1,4 +1,4 @@
-const tarots = [
+export const tarots = [
   {
     id: 0,
     numero: 0,
