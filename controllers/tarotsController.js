@@ -12,8 +12,8 @@ const index = (req, res) => {
 }
 
 const show = (req, res) => {
-    const tarotsId = parseInt(req.params.id)
-    const singleTarot = tarots.find((curTarot) => curTarot.id === tarotsId)
+    const tarotId = parseInt(req.params.id)
+    const singleTarot = tarots.find((curTarot) => curTarot.id === tarotId)
 
     if (singleTarot === undefined) {
         return res.status(404).json({
@@ -27,9 +27,37 @@ const show = (req, res) => {
     })
 }
 
+const update = (req, res) => {
+    const tarotID = parseInt(req.params.id)
+    const updatedTarot = req.body
+    const tarot = tarots.find((curTarot) => curTarot.id === tarotID)
+
+    if (!tarot) {
+        return res.status(404).json({
+            success: false,
+            message: "Impossibile trovare i dati da modificare: id inesistente"
+        })
+    }
+
+    tarot.numero = updatedTarot.numero
+    tarot.nome = updatedTarot.nome
+    tarot.dritto = updatedTarot.dritto
+    tarot.significato.dritto = updatedTarot.significato.dritto
+    tarot.significato.rovesciato = updatedTarot.significato.rovesciato
+    tarot.messaggio = updatedTarot.messaggio
+    tarot.img = updatedTarot.img
+
+
+    res.json({
+        data: tarot,
+        message: `Carta con ID ${tarotID} modificata con successo`
+    })
+}
+
 const tarotsController = {
     index,
-    show
+    show,
+    update
 };
 
 export default tarotsController
