@@ -7,7 +7,7 @@ import errorHandler from "./middleware/errorHandlers.js"
 import NotFound from "./middleware/notFound.js"
 
 const app = express()
-const port = process.env.PORT;
+const port = process.env.SERVER_PORT;
 
 app.use(express.json())
 app.use(express.static("public"))
