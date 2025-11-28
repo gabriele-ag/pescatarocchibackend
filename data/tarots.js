@@ -9,7 +9,7 @@ export const tarots = [
       rovesciato: "Imprudenza, mancanza di direzione, rischio eccessivo"
     },
     messaggio: "Abbraccia l'ignoto con fiducia",
-    img: "/ilmatto.jpg"
+    img: "/img/ilmatto.jpg"
   },
   {
     id: 1,
@@ -21,7 +21,7 @@ export const tarots = [
       rovesciato: "Inganno, manipolazione, potenziale sprecato"
     },
     messaggio: "Hai tutto ciò che ti serve per riuscire",
-    img: "/mago.jpg"
+    img: "/img/mago.jpg"
   },
   {
     id: 2,
@@ -33,7 +33,7 @@ export const tarots = [
       rovesciato: "Segreti, disconnessione, superficialità"
     },
     messaggio: "Ascolta la tua voce interiore",
-    img: "/papessa.jpg"
+    img: "/img/papessa.jpg"
   },
   {
     id: 3,
@@ -45,7 +45,7 @@ export const tarots = [
       rovesciato: "Dipendenza, blocco creativo, squilibrio"
     },
     messaggio: "Coltiva ciò che ami",
-    img: "/imperatrice.jpg"
+    img: "/img/imperatrice.jpg"
   },
   {
     id: 4,
@@ -57,7 +57,7 @@ export const tarots = [
       rovesciato: "Tirannia, rigidità, controllo eccessivo"
     },
     messaggio: "Guida con fermezza e cuore",
-    img: "/imperatore.jpg"
+    img: "/img/imperatore.jpg"
   },
   {
     id: 5,
@@ -69,7 +69,7 @@ export const tarots = [
       rovesciato: "Dogmatismo, ribellione, falsi profeti"
     },
     messaggio: "Cerca la verità oltre le apparenze",
-    img: "/papa.jpg"
+    img: "/img/papa.jpg"
   },
   {
     id: 6,
@@ -81,7 +81,7 @@ export const tarots = [
       rovesciato: "Conflitto, indecisione, disarmonia"
     },
     messaggio: "Segui il cuore con consapevolezza",
-    img: "/amanti.jpg"
+    img: "/img/amanti.jpg"
   },
   {
     id: 7,
@@ -93,7 +93,7 @@ export const tarots = [
       rovesciato: "Perdita di controllo, aggressività, ostacoli"
     },
     messaggio: "Avanza con fiducia e disciplina",
-    img: "/carro.jpg"
+    img: "/img/carro.jpg"
   },
   {
     id: 8,
@@ -105,7 +105,7 @@ export const tarots = [
       rovesciato: "Debolezza, impulsività, paura"
     },
     messaggio: "La vera forza è dentro di te",
-    img: "/forza.jpg"
+    img: "/img/forza.jpg"
   },
   {
     id: 9,
@@ -117,7 +117,7 @@ export const tarots = [
       rovesciato: "Isolamento, solitudine, chiusura"
     },
     messaggio: "Trova la luce nel silenzio",
-    img: "/eremita.jpg"
+    img: "/img/eremita.jpg"
   },
   {
     id: 10,
@@ -129,7 +129,7 @@ export const tarots = [
       rovesciato: "Sfortuna, resistenza al cambiamento, stagnazione"
     },
     messaggio: "Accogli il cambiamento come opportunità",
-    img: "/fortuna.jpg"
+    img: "/img/fortuna.jpg"
   },
   {
     id: 11,
@@ -141,7 +141,7 @@ export const tarots = [
       rovesciato: "Ingiustizia, parzialità, negazione"
     },
     messaggio: "Agisci con integrità",
-    img: "/giustizia.jpg"
+    img: "/img/giustizia.jpg"
   },
   {
     id: 12,
@@ -153,7 +153,7 @@ export const tarots = [
       rovesciato: "Stallo, resistenza, martirio inutile"
     },
     messaggio: "Lascia andare per vedere oltre",
-    img: "/appeso.jpg"
+    img: "/img/appeso.jpg"
   },
   {
     id: 13,
@@ -165,7 +165,7 @@ export const tarots = [
       rovesciato: "Resistenza al cambiamento, stagnazione"
     },
     messaggio: "Chiudi un ciclo per rinascere",
-    img: "/morte.jpg"
+    img: "/img/morte.jpg"
   },
   {
     id: 14,
@@ -177,7 +177,7 @@ export const tarots = [
       rovesciato: "Eccessi, squilibrio, impazienza"
     },
     messaggio: "Trova il tuo centro",
-    img: "/temperanza.jpg"
+    img: "/img/temperanza.jpg"
   },
   {
     id: 15,
@@ -189,7 +189,7 @@ export const tarots = [
       rovesciato: "Liberazione, consapevolezza, rottura delle catene"
     },
     messaggio: "Riconosci ciò che ti imprigiona",
-    img: "/diavolo.jpg"
+    img: "/img/diavolo.jpg"
   },
   {
     id: 16,
@@ -201,7 +201,7 @@ export const tarots = [
       rovesciato: "Evitare il disastro, paura del cambiamento"
     },
     messaggio: "Dalle rovine nasce la verità",
-    img: "/torre.jpg"
+    img: "/img/torre.jpg"
   },
   {
     id: 17,
@@ -213,7 +213,7 @@ export const tarots = [
       rovesciato: "Disillusione, perdita di fede"
     },
     messaggio: "Segui la tua luce interiore",
-    img: "/stella.jpg"
+    img: "/img/stella.jpg"
   },
   {
     id: 18,
@@ -225,7 +225,7 @@ export const tarots = [
       rovesciato: "Inganno, confusione, ansia"
     },
     messaggio: "Fidati del tuo intuito",
-    img: "/luna.jpg"
+    img: "/img/luna.jpg"
   },
   {
     id: 19,
@@ -237,7 +237,7 @@ export const tarots = [
       rovesciato: "Eccesso di fiducia, superficialità"
     },
     messaggio: "Splendi senza paura",
-    img: "/sole.jpg"
+    img: "/img/sole.jpg"
   },
   {
     id: 20,
@@ -249,7 +249,7 @@ export const tarots = [
       rovesciato: "Rimorso, rifiuto, stagnazione"
     },
     messaggio: "Accogli il cambiamento con consapevolezza",
-    img: "/giustizia.jpg"
+    img: "/img/giustizia.jpg"
   },
   {
     id: 21,
@@ -261,6 +261,6 @@ export const tarots = [
       rovesciato: "Incompiutezza, ritardi, dispersione"
     },
     messaggio: "Celebra il tuo viaggio",
-    img: "/ilmondo.jpg"
+    img: "/img/ilmondo.jpg"
   }
 ];
